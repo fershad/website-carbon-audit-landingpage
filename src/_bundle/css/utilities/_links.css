@@ -40,3 +40,17 @@ a.button {
   background-image: none;
   text-shadow: none;
 }
+
+a[target="_blank"] {
+  position: relative;
+}
+
+a[target="_blank"]:after {
+  background: transparent url(/svg/external.svg) 0 0 no-repeat;
+  background-size: 16px;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-left: 0.5ch;
+  width: 16px;
+}
