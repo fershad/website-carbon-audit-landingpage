@@ -1,0 +1,13 @@
+#intro > h1 {
+  padding: var(--size-900) 0;
+  /* border-top: 0.5px solid var(--green); */
+  /* border-radius: 5px; */
+  /* background: transparent; */
+  position: relative;
+  /* border: 0.5px solid var(--color-dark); */
+  /* height: clamp(40vh, 70vh, 90vh); */
+}
+
+h1 {
+  background: var(--lightest);
+}

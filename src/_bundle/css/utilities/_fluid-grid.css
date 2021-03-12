@@ -1,0 +1,14 @@
+.fluid-grid {
+  --min: 32ch;
+  --gap: var(--size-600);
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+@media (min-width: 36rem) {
+  .fluid-grid {
+    --min: 24ch;
+  }
+}

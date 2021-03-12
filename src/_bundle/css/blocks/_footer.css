@@ -1,0 +1,15 @@
+footer {
+  background-color: var(--color-dark);
+  color: var(--light-text);
+  /* margin-top: 4rem; */
+  min-height: 10vh;
+  padding: var(--size-500) 0;
+}
+
+footer nav ul li:first-child {
+  margin-left: 0;
+}
+
+footer nav ul {
+  margin-bottom: var(--size-400);
+}

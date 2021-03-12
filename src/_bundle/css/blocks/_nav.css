@@ -1,0 +1,31 @@
+nav ul li {
+  display: inline-block;
+  margin-left: var(--size-400);
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+header nav {
+  /* background-color: var(--dark-green); */
+  width: 100vw;
+  padding: var(--size-300) 0;
+  /* color: var(--lightest); */
+  margin: 0 calc(var(--size-700) * -1);
+}
+
+nav ul li a {
+  color: currentColor;
+}
+
+@media (min-width: 36rem) {
+  header nav {
+    width: initial;
+    /* background-color: var(--light-green); */
+    /* color: var(--darker); */
+  }
+}

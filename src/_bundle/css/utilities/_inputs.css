@@ -1,0 +1,20 @@
+input[type="submit"] {
+  font-size: var(--size-500);
+  font-family: var(--heading-font);
+  width: 100%;
+  margin-top: var(--size-300);
+  margin-bottom: var(--size-300);
+}
+
+label > input[type="email"] {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 var(--size-300);
+  text-align: center;
+}
+
+[data-content="narrow"] {
+  margin: 0 auto;
+  max-width: 45ch;
+}

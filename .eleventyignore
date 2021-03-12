@@ -1,0 +1,9 @@
+.DS_Store
+_site
+_dev
+node_modules
+yarn-error.log
+.env
+
+# Local Netlify folder
+.netlify

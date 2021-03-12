@@ -1,0 +1,22 @@
+.button {
+  text-decoration: none;
+  /* background: var(--dark-green);
+  color: var(--lightest); */
+  font-size: var(--size-500);
+  margin: var(--size-500) 0;
+  display: inline-block;
+}
+
+.button[data-color="primary"] {
+  background-color: var(--color-primary);
+  color: var(--color-dark);
+  text-shadow: -1px -1px 0 var(--color-primary), 1px -1px 0 var(--color-primary),
+    -1px 1px 0 var(--color-primary), 1px 1px 0 var(--color-primary);
+}
+
+.button[data-color="accent"] {
+  background-color: var(--color-accent);
+  color: var(--color-dark);
+  text-shadow: -1px -1px 0 var(--accent-color), 1px -1px 0 var(--accent-color),
+    -1px 1px 0 var(--accent-color), 1px 1px 0 var(--accent-color);
+}

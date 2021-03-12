@@ -1,0 +1,51 @@
+.full-width {
+  grid-column: -1/1;
+  padding: var(--size-400) var(--size-600);
+}
+
+.full-width[data-highlighted="light"] {
+  background-color: var(--color-primary-light);
+  color: var(--color-dark);
+}
+
+.full-width[data-highlighted="dark"] {
+  background-color: var(--color-primary-dark);
+  color: var(--light-text);
+}
+
+.full-width[data-highlighted="accent"] {
+  background-color: var(--color-accent);
+  color: var(--dark-text);
+}
+
+.full-width[data-highlighted="accent-light"] {
+  background-color: var(--color-accent-light);
+  color: var(--dark-text);
+}
+
+.full-width[data-highlighted="accent"] a,
+.full-width[data-highlighted="accent"] a:visited {
+  text-shadow: -1px -1px 0 var(--color-accent), 1px -1px 0 var(--color-accent),
+    -1px 1px 0 var(--color-accent), 1px 1px 0 var(--color-accent);
+  color: currentColor;
+  background-image: linear-gradient(
+      90deg,
+      var(--color-accent),
+      var(--color-accent)
+    ),
+    linear-gradient(90deg, var(--dark-text), var(--dark-text));
+  background-repeat: no-repeat;
+  background-position: -100% 105%, 0% 105%;
+  background-size: 0px 0.2rem, 100% 0.2rem;
+  text-decoration: none;
+  transition: background-size 0.4s ease-in;
+}
+
+.full-width[data-highlighted="accent"] a:hover,
+.full-width[data-highlighted="accent"] a:focus {
+  /* color: var(--green); */
+  background-repeat: no-repeat;
+  background-position: 0% 105%, 0% 105%;
+  background-size: 100% 0.2rem, 100% 0.2rem;
+  text-decoration: none;
+}

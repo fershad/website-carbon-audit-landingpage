@@ -1,0 +1,7 @@
+.subtag {
+  font-size: clamp(var(--size-600), var(--size-700), var(--size-800));
+  font-weight: 900;
+  /* font-size: var(--size-00); */
+  color: var(--color-dark);
+  font-family: var(--base-font);
+}

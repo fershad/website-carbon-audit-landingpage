@@ -1,0 +1,28 @@
+header {
+  /* font-size: 1.8rem; */
+  background-color: var(--color-dark);
+  margin-bottom: var(--size-900);
+  /* max-height: 8rem; */
+  min-height: 6rem;
+  font-size: var(--size-500);
+  padding: var(--size-500) 0 0 0;
+  color: var(--light-text);
+}
+
+header .logo {
+  margin-bottom: var(--size-400);
+}
+
+header .wrapper {
+  flex-wrap: wrap;
+}
+
+@media (min-width: 36rem) {
+  header {
+    padding: var(--size-500) 0;
+  }
+
+  header .logo {
+    margin-bottom: 0;
+  }
+}
