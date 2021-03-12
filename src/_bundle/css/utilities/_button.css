@@ -3,7 +3,8 @@
   /* background: var(--dark-green);
   color: var(--lightest); */
   font-size: var(--size-500);
-  margin: var(--size-500) 0;
+  margin-top: var(--size-500);
+  margin-bottom: var(--size-500);
   display: inline-block;
 }
 

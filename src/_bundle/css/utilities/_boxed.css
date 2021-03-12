@@ -42,6 +42,10 @@
   --box-color: var(--color-primary-light);
 }
 
+.boxed[data-box-color="accent"] {
+  --box-color: var(--color-accent);
+}
+
 .boxed[data-flipped]::before {
   right: calc((var(--size-300) / 2) * -1);
   left: initial;
