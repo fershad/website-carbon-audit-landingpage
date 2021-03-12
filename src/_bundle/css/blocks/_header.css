@@ -5,12 +5,15 @@ header {
   /* max-height: 8rem; */
   min-height: 6rem;
   font-size: var(--size-500);
-  padding: var(--size-500) 0 0 0;
+  /* padding: var(--size-500) 0 0 0; */
   color: var(--light-text);
 }
 
-header .logo {
+header .logo a {
   margin-bottom: var(--size-400);
+  /* font-size: var(--size-500); */
+  font-family: var(--heading-font);
+  font-weight: 700;
 }
 
 header .wrapper {
@@ -24,5 +27,6 @@ header .wrapper {
 
   header .logo {
     margin-bottom: 0;
+    /* text-align: left; */
   }
 }

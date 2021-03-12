@@ -2,13 +2,13 @@
   --min: 32ch;
   --gap: var(--size-600);
 
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--gap);
+  display: grid;
+  grid-gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
 }
 
 @media (min-width: 36rem) {
   .fluid-grid {
-    --min: 24ch;
+    --min: 20ch;
   }
 }
