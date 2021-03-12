@@ -49,10 +49,10 @@ module.exports = async (content, outputPath) => {
                 }
             );
 
-            // const inlineStyle = `<style type="text/css">${result}</style>`;
+            const inlineStyle = `<style type="text/css">${result}</style>`;
             const linkToFile = `<link href='/assets/css/${hashedFilename}' rel="stylesheet" media="print" onload="this.media='all'">
         <noscript><link href='/assets/css/${hashedFilename}' rel='stylesheet'></noscript>`;
-            return content.replace(pattern, `${linkToFile}</head>`);
+            return content.replace(pattern, `${inlineStyle}</head>`);
         }
     } else {
         // File destination.txt will be created or overwritten by default.
