@@ -10,13 +10,13 @@
 .button[data-color="primary"] {
   background-color: var(--color-primary);
   color: var(--color-dark);
-  text-shadow: -1px -1px 0 var(--color-primary), 1px -1px 0 var(--color-primary),
-    -1px 1px 0 var(--color-primary), 1px 1px 0 var(--color-primary);
+  /* text-shadow: -1px -1px 0 var(--color-primary), 1px -1px 0 var(--color-primary),
+    -1px 1px 0 var(--color-primary), 1px 1px 0 var(--color-primary); */
 }
 
 .button[data-color="accent"] {
   background-color: var(--color-accent);
   color: var(--color-dark);
-  text-shadow: -1px -1px 0 var(--accent-color), 1px -1px 0 var(--accent-color),
-    -1px 1px 0 var(--accent-color), 1px 1px 0 var(--accent-color);
+  /* text-shadow: -1px -1px 0 var(--accent-color), 1px -1px 0 var(--accent-color),
+    -1px 1px 0 var(--accent-color), 1px 1px 0 var(--accent-color); */
 }
