@@ -1,5 +1,5 @@
 .fluid-grid {
-  --min: 32ch;
+  --min: 30ch;
   --gap: var(--size-600);
 
   display: grid;

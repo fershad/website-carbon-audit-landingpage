@@ -2,16 +2,16 @@
   display: grid;
   padding-left: 0;
   padding-right: 0;
-  grid-template-columns: var(--size-300) 1fr var(--size-300);
+  grid-template-columns: 100%;
   position: relative;
-  /* overflow-y: hidden; */
+  overflow-x: hidden;
   height: 100%;
   width: 100%;
-  /* padding: 0 var(--size-300); */
+  padding: 0 var(--size-300);
 }
 
 .wrapper > * {
-  grid-column: 2/3;
+  /* grid-column: 2/3; */
 }
 
 @media (min-width: 62rem) {

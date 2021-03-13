@@ -1,6 +1,13 @@
 .full-width {
-  grid-column: -1/1;
+  margin-left: calc(var(--size-400) * -1);
+  margin-right: calc(var(--size-400) * -1);
   padding: var(--size-400) var(--size-600);
+}
+
+@media (min-width: 62rem) {
+  .full-width {
+    grid-column: -1/1;
+  }
 }
 
 .full-width[data-highlighted="light"] {
