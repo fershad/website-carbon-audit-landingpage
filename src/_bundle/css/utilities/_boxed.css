@@ -63,3 +63,8 @@
   border-right: none;
   border-left: calc((var(--size-300) / 2)) solid var(--box-color);
 }
+
+.boxed img {
+  margin-left: auto;
+  margin-right: auto;
+}
