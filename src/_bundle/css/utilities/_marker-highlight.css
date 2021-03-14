@@ -1,9 +1,14 @@
 .marker-highlight {
   position: relative;
   z-index: 0;
+  display: inline-block;
 }
 
 .marker-highlight[data-highlight="accent-dark"] {
+  color: var(--dark-text);
+}
+
+.marker-highlight[data-highlight="primary-dark"] {
   color: var(--dark-text);
 }
 
@@ -15,11 +20,14 @@
   z-index: -1;
   filter: url(#marker-shape);
   left: -0.25rem;
-  top: 0.1em;
+  top: 0.5ex;
   padding: 0 0.25rem;
 }
 
 .marker-highlight[data-highlight="accent-dark"]:before {
   background-color: var(--color-accent-dark);
-  color: var(--dark-text);
+}
+
+.marker-highlight[data-highlight="primary-dark"]:before {
+  background-color: var(--color-primary-dark);
 }
