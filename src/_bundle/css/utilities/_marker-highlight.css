@@ -1,0 +1,25 @@
+.marker-highlight {
+  position: relative;
+  z-index: 0;
+}
+
+.marker-highlight[data-highlight="accent-dark"] {
+  color: var(--dark-text);
+}
+
+.marker-highlight:before {
+  content: "";
+  width: 100%;
+  height: 1em;
+  position: absolute;
+  z-index: -1;
+  filter: url(#marker-shape);
+  left: -0.25rem;
+  top: 0.1em;
+  padding: 0 0.25rem;
+}
+
+.marker-highlight[data-highlight="accent-dark"]:before {
+  background-color: var(--color-accent-dark);
+  color: var(--dark-text);
+}

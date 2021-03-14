@@ -2,20 +2,36 @@
 title: Homepage
 layout: base
 ---
-<h1 class="xl text-center">Website Carbon Audit</h1>
-<p class="subtag text-center">What is the environmental impact of your website, and how can you reduce it?</p>
+<h1 class="xl text-center">
+    <span data-color="primary">Website</span><br>
+    <span>Carbon</span><br>
+    <span data-color="primary">Audit</span>
+</h1>
+<p class="subtag text-center">What is the
+    <span class="marker-highlight" data-highlight="accent-dark">environmental impact</span>
+    of your website, and how can you
+    <span class="marker-highlight" data-highlight="accent-dark">reduce it</span>?</p>
 <a class="h4 button pill text-center" data-color="primary-dark" href="#register">Available from April, 2021</a>
 
 <aside class="boxed text-center flow" data-box-color="dark">
     <h3>Did you know?</h3>
     <p>Making a 1kB reduction to a file loaded on over 2 million websites resulted in an estimated
-        <strong data-color="primary-dark">2950kg less CO<sub>2</sub>
+        <strong class="marker-highlight" data-highlight="accent-dark">2950kg less CO<sub>2</sub>
         </strong>
         being produced.</p>
     <p>Source:
         <a href="https://dannyvankooten.com/website-carbon-emissions/" rel="noopener" target="_blank">Danny van Kooten</a>
     </p>
 </aside>
+
+<svg class="svg-filters" style="display:none;" version="1.1" xmlns="//www.w3.org/2000/svg">
+    <defs>
+        <filter id="marker-shape">
+            <feTurbulence basefrequency="0 0.15" numoctaves="1" result="warp" type="fractalNoise"/>
+            <feDisplacementMap in2="warp" in="SourceGraphic" scale="30" xchannelselector="R" ychannelselector="G"/>
+        </filter>
+    </defs>
+</svg>
 
 <section class="text-center">
     <h2>Start reducing your site's carbon footprint!</h2>

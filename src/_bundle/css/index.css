@@ -15,6 +15,7 @@
 @import "./utilities/_pill.css";
 @import "./utilities/_links.css";
 @import "./utilities/_inputs.css";
+@import "./utilities/_marker-highlight.css";
 
 /* Blocks */
 @import "./blocks/_header.css";
