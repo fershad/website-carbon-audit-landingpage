@@ -41,5 +41,14 @@
     <main id="main-content" class="wrapper flow">{{ content | safe }}</main>
     {% include "partials/footer" %}
     
+    
+<svg class="svg-filters" style="display:none;" version="1.1" xmlns="//www.w3.org/2000/svg">
+    <defs>
+        <filter id="marker-shape">
+            <feTurbulence basefrequency="0 0.15" numoctaves="1" result="warp" type="fractalNoise"/>
+            <feDisplacementMap in2="warp" in="SourceGraphic" scale="30" xchannelselector="R" ychannelselector="G"/>
+        </filter>
+    </defs>
+</svg>
 </body>
 </html>

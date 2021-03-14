@@ -75,7 +75,7 @@
     <!-- data was fulfilled -->
     <p>
       This pageview produced
-      <span class="marker-highlight" data-highlight="accent-light">{value.c}g of
+      <span class="marker-highlight" data-highlight="accent-dark">{value.c}g of
         CO<sub>2</sub></span>.
     </p>
     <small>It's cleaner than
@@ -90,7 +90,7 @@
     margin-bottom: 0.75ex;
   }
 
-  .marker-highlight[data-highlight="accent-light"]:before {
-    background-color: var(--color-accent-light);
+  .marker-highlight[data-highlight="accent-dark"]:before {
+    background-color: var(--color-accent-dark);
   }
 </style>
