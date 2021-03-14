@@ -89,4 +89,8 @@
   p {
     margin-bottom: 0.75ex;
   }
+
+  .marker-highlight[data-highlight="accent-light"]:before {
+    background-color: var(--color-accent-light);
+  }
 </style>
