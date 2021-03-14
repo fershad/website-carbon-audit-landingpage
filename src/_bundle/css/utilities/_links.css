@@ -41,11 +41,13 @@ a.button {
   text-shadow: none;
 }
 
-a[target="_blank"] {
+a[target="_blank"],
+a[data-target="external"] {
   position: relative;
 }
 
-a[target="_blank"]:after {
+a[target="_blank"]:after,
+a[data-target="external"]:after {
   background: transparent url(/svg/external.svg) 0 0 no-repeat;
   background-size: 16px;
   content: "";

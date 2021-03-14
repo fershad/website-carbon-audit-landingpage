@@ -13,3 +13,11 @@ footer nav ul li:first-child {
 footer nav ul {
   margin-bottom: var(--size-400);
 }
+
+footer a[target="_blank"]:after,
+footer a[data-target="external"]:after {
+  height: 2ex;
+  width: 2ex;
+  background-size: 2ex;
+  filter: invert(1);
+}
