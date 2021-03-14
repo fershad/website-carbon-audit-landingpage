@@ -4,6 +4,7 @@ input[type="submit"] {
   width: 100%;
   margin-top: var(--size-300);
   margin-bottom: var(--size-300);
+  cursor: pointer;
 }
 
 label > input[type="email"] {
