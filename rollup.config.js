@@ -82,4 +82,54 @@ export default [
                 }),
         ],
     },
+    {
+        input: 'src/_bundle/did-you-know/index.js',
+        output: [
+            {
+                file: `${output}/js/did-you-know.mjs`,
+                format: 'es',
+            },
+            {
+                file: `${output}/js/did-you-know.js`,
+                format: 'umd',
+                name: '1.0.0',
+            },
+        ],
+        plugins: [
+            svelte(),
+            resolve({
+                browser: true,
+                dedupe: ['svelte'],
+            }),
+            commonjs(),
+
+            babel({
+                extensions: ['.js', '.mjs', '.html', '.svelte'],
+                babelHelpers: 'runtime',
+                exclude: ['node_modules/@babel/**'],
+                presets: [
+                    [
+                        '@babel/preset-env',
+                        {
+                            targets: '> 0.25%, not dead',
+                        },
+                    ],
+                ],
+                plugins: [
+                    '@babel/plugin-syntax-dynamic-import',
+                    [
+                        '@babel/plugin-transform-runtime',
+                        {
+                            useESModules: true,
+                        },
+                    ],
+                ],
+            }),
+
+            !dev &&
+                terser({
+                    module: true,
+                }),
+        ],
+    },
 ];

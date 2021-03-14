@@ -15,13 +15,18 @@ layout: base
 
 <aside class="boxed text-center flow" data-box-color="dark">
     <p class="h3">Did you know?</p>
-    <p>Making a 1kB reduction to a file loaded on over 2 million websites resulted in an estimated
-        <strong class="marker-highlight" data-highlight="accent-dark">2950kg less CO<sub>2</sub>
-        </strong>
-        being produced.</p>
-    <p>Source:
-        <a href="https://dannyvankooten.com/website-carbon-emissions/" rel="noopener" target="_blank">Danny van Kooten</a>
-    </p>
+    <div id="didyouknow"></div>
+    <script async src="/js/did-you-know.mjs" type="module"></script>
+    <script async nomodule="" src="/js/did-you-know.js"></script>
+    <noscript>
+        <p>Making a 1kB reduction to a file loaded on over 2 million websites resulted in an estimated
+            <strong class="marker-highlight" data-highlight="accent-dark">2950kg less CO<sub>2</sub>
+            </strong>
+            being produced.</p>
+        <p>Source:
+            <a href="https://dannyvankooten.com/website-carbon-emissions/" rel="noopener" target="_blank">Danny van Kooten</a>
+        </p>
+    </noscript>
 </aside>
 
 <section class="text-center">
