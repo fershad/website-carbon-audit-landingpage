@@ -7,7 +7,7 @@
   overflow-x: hidden;
   height: 100%;
   width: 100%;
-  padding: 0 var(--size-300);
+  padding: 0 var(--size-400);
 }
 
 .wrapper > * {
