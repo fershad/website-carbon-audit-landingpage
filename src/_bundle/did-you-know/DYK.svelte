@@ -35,7 +35,7 @@
   }
 </script>
 
-<div class="text-center">
+<div class="text-center" id="fact">
   {#key fact}
     <p in:fade>
       {@html facts[fact].content}

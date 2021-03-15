@@ -68,10 +68,7 @@
 </script>
 
 <div class="text-center">
-  {#await data}
-    <!-- data is pending -->
-    <span>Measuring CO<sub>2</sub>&hellip;</span>
-  {:then value}
+  {#await data then value}
     <!-- data was fulfilled -->
     <p>
       This pageview produced
