@@ -3,10 +3,10 @@
 
   const facts = [
     {
-      content: `Making a 1kB reduction to a file loaded on over 2 million websites resulted in an estimated
-            <strong class="marker-highlight" data-highlight="accent-dark">2950kg less CO<sub>2</sub>
+      content: `Reducing the Mailchimp for WordPress plugin by 20kB resulted in an estimated
+            <strong class="marker-highlight" data-highlight="accent-dark">59,000kg less CO<sub>2</sub>
             </strong>
-            being produced.`,
+            being produced per month.`,
       source: `<a href="https://dannyvankooten.com/website-carbon-emissions/" rel="noopener" target="_blank">Danny van Kooten</a>`,
     },
     {
