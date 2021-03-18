@@ -1,2 +1,3 @@
+Sitemap: https://websitecarbonaudit.com/sitemap.xml
 User-agent: * 
 Disallow: /privacy
